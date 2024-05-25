@@ -1,6 +1,9 @@
 esphome:
   name: window-actuator
   name_add_mac_suffix: true
+  project:
+    name: malte-d.window-actuator
+    version: "1.0"
 
 esp8266:
   board: d1_mini
@@ -22,7 +25,7 @@ wifi:
   fast_connect: true
 
 dashboard_import:
-  package_import_url: github://Malte-D/window-actuator/esphome/window-actuator.yaml
+  package_import_url: github://Malte-D/window-actuator/esphome/window-actuator.yaml@main
   import_full_config: true
 
 servo:
